@@ -19,5 +19,4 @@ html {
 .square {
     background-image: url(chessPieces.png);
     background-size: calc(min(80vh, 80vw) / 8 * 6);
-    background-position:60% 0%;
 }
