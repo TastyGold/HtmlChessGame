@@ -1,19 +1,22 @@
-body, html {
+body,
+html {
     background-color: #202020;
     color: white;
 }
 
-.chess{
+.chess {
     background-color: red;
-    width:fit-content;
-    margin:auto;
+    padding: 0px;
+    width: calc(min(80vh, 80vw));
+    height: calc(min(80vh, 80vw));
+    margin: auto;
 }
 
-.grid-container{
-    display:grid;
+.grid-container {
+    display: grid;
 }
-
-.square{
-    width:128px;
-    height:128px;
-}
+/* 
+.square{ 
+    width: calc(min(80vh, 80vw) / 8);
+    height: calc(min(80vh, 80vw) / 8);
+} */
