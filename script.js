@@ -34,7 +34,7 @@ function generateBoardHTML(width, height) {
             boardHtml +=
                 '<div class="square" style="background-color:' +
                 color +
-                '"></div>';
+                '">' + "" + '</div>';
         }
     }
     return boardHtml;

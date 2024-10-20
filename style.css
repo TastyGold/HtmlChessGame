@@ -5,7 +5,7 @@ html {
 }
 
 .chess {
-    background-color: red;
+    /*background-color: red;*/
     padding: 0px;
     width: calc(min(80vh, 80vw));
     height: calc(min(80vh, 80vw));
@@ -15,8 +15,9 @@ html {
 .grid-container {
     display: grid;
 }
-/* 
-.square{ 
-    width: calc(min(80vh, 80vw) / 8);
-    height: calc(min(80vh, 80vw) / 8);
-} */
+
+.square {
+    background-image: url(chessPieces.png);
+    background-size: calc(min(80vh, 80vw) / 8 * 6);
+    background-position:60% 0%;
+}
