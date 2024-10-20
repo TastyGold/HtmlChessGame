@@ -14,8 +14,8 @@ board = [
 ];
 
 window.onload = function () {
-    const boardWidth = 12;
-    const boardHeight = 12;
+    const boardWidth = 8;
+    const boardHeight = 8;
 
     boardHtml = generateBoardHTML(boardWidth, boardHeight);
 
