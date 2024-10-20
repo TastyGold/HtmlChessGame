@@ -1,0 +1,19 @@
+body, html {
+    background-color: #202020;
+    color: white;
+}
+
+.chess{
+    background-color: red;
+    width:fit-content;
+    margin:auto;
+}
+
+.grid-container{
+    display:grid;
+}
+
+.square{
+    width:128px;
+    height:128px;
+}
